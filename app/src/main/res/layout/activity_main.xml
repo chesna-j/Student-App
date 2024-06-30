@@ -19,7 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your First Name "
-        android:id="@+id/fname"/>
+        android:id="@+id/fname"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your Last Name"
-        android:id="@+id/lname"/>
+        android:id="@+id/lname"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your college name"
-        android:id="@+id/clg"/>
+        android:id="@+id/clg"
+        android:drawableLeft="@drawable/baseline_school_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,7 +53,8 @@
         android:layout_height="wrap_content"
         android:hint="DD-MM-YYYY"
         android:id="@+id/dob"
-        android:inputType="date"/>
+        android:inputType="date"
+        android:drawableLeft="@drawable/baseline_child_friendly_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +64,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Course enrolled"
-        android:id="@+id/course"/>
+        android:id="@+id/course"
+        android:drawableLeft="@drawable/baseline_menu_book_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,7 +76,8 @@
         android:layout_height="wrap_content"
         android:hint="Enter Mobile no."
         android:id="@+id/mob"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:drawableLeft="@drawable/baseline_call_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,7 +87,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter mail id"
-        android:id="@+id/mail"/>
+        android:id="@+id/mail"
+        android:drawableLeft="@drawable/baseline_email_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,20 +98,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your address"
-        android:id="@+id/address"/>
+        android:id="@+id/address"
+        android:drawableLeft="@drawable/baseline_house_24"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:text="Register"
         android:textColor="#000c40"
-        android:layout_margin="30px"
+        android:layout_margin="10px"
+        android:background="#CDCFD0"
         android:id="@+id/regbtn"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:text="View"
         android:textColor="#000c40"
-        android:layout_margin="30px"
+        android:layout_margin="20px"
+        android:background="#CDCFD0"
         android:id="@+id/viewbtn"/>
 
 
