@@ -107,15 +107,17 @@
         android:textColor="#000c40"
         android:layout_margin="10px"
         android:background="#CDCFD0"
-        android:id="@+id/regbtn"/>
+        android:id="@+id/regbtn"
+        android:textAllCaps="false"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:text="View"
+        android:text="View all Students"
         android:textColor="#000c40"
         android:layout_margin="20px"
         android:background="#CDCFD0"
-        android:id="@+id/viewbtn"/>
+        android:id="@+id/viewbtn"
+        android:textAllCaps="false"/>
 
 
 </LinearLayout>
